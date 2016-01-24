@@ -1,0 +1,11 @@
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  b = branch -a
+  c = clone
+  hist = log --graph --oneline --decorate --color
+  type = cat-file -t
+  dump = cat-file -p
+  diffs = diff --staged
+  r = remote -v
